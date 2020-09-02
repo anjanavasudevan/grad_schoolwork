@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  2 SEP 2020 22:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  2 SEP 2020 22:44
 entering extended mode
 **./Assignment1.tex
 (Assignment1.tex
@@ -282,17 +282,12 @@ LaTeX Info: Redefining \nameref on input line 12.
 \@outlinefile=\write3
 \openout3 = `Assignment1.out'.
 
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 46.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
-[1
+ [1
 
 {C:/Users/admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
-
-(Assignment1.aux)
+ (Assignment1.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `Assignment1.out' has not changed.
@@ -301,7 +296,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
  5552 strings out of 480790
- 82374 string characters out of 2910816
+ 82410 string characters out of 2910816
  348067 words of memory out of 3000000
  21483 multiletter control sequences out of 15000+200000
  538033 words of font info for 44 fonts, out of 3000000 for 9000
@@ -313,9 +308,9 @@ sfonts/cm/cmex10.pfb><D:/LateX/miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ><D:/LateX/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/LateX/miktex/fon
 ts/type1/public/amsfonts/cm/cmr12.pfb><D:/LateX/miktex/fonts/type1/public/amsfo
 nts/cm/cmr17.pfb><D:/LateX/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Assignment1.pdf (1 page, 87246 bytes).
+Output written on Assignment1.pdf (1 page, 87508 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

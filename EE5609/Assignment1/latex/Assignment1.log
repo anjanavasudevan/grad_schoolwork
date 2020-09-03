@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  3 SEP 2020 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  3 SEP 2020 16:31
 entering extended mode
 **./Assignment1.tex
 (Assignment1.tex
@@ -290,23 +290,23 @@ LaTeX Info: Redefining \nameref on input line 13.
 \@outlinefile=\write3
 \openout3 = `Assignment1.out'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
  [1
 
 {C:/Users/admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
  (Assignment1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `Assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 5646 strings out of 480790
- 83406 string characters out of 2910816
+ 5647 strings out of 480790
+ 83411 string characters out of 2910816
  349357 words of memory out of 3000000
- 21561 multiletter control sequences out of 15000+200000
+ 21562 multiletter control sequences out of 15000+200000
  542632 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,14n,29p,230b,315s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -317,7 +317,7 @@ sfonts/cm/cmbx7.pfb><D:/LateX/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 ts/type1/public/amsfonts/cm/cmr10.pfb><D:/LateX/miktex/fonts/type1/public/amsfo
 nts/cm/cmr12.pfb><D:/LateX/miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/
 LateX/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Assignment1.pdf (1 page, 93897 bytes).
+Output written on Assignment1.pdf (1 page, 93909 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)

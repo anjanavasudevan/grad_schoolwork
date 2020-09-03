@@ -11,38 +11,26 @@ urlcolor = blue,}
 \date{September 2020}
 
 \begin{document}
-
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 \maketitle
 \section*{Question}
 A body constrained to move along the z-axis of a coordinate system is subject to a constant force:
 \begin{align*}
-\textbf{F}=\begin{pmatrix}
--1\\
-2\\
-3
-\end{pmatrix}    
+\textbf{F}=\myvec{1\\-2\\3}    
 \end{align*}
 What is the work done by this force in moving the body a distance of 4 m along the z-axis?
 \section*{Answer}
 Work done in moving an object by a distance \textbf{s} using an external force \textbf{F} is given by:
 $$W = \mathbf{F^Ts}$$
-As seen above, work done is the dot product (scalar product) of Force and distance.
+As seen above, work done is the scalar product (dot product) of Force and distance.
 \\Here, 
 \begin{align*}
-\textbf{s}=\begin{pmatrix}
-0\\
-0\\
-4
-\end{pmatrix}    
+\textbf{s}=\myvec{0\\0\\4}   
 \end{align*}
 The scalar product of the variables is given by:
-$$\mathbf{F^Ts} = \begin{pmatrix}
--1 & 2 & 3
-\end{pmatrix}\begin{pmatrix}
-0\\
-0\\
-4
-\end{pmatrix}=12$$
+\begin{align*}
+\mathbf{F^Ts} = \myvec{1 & -2 & 3} \myvec{0\\0\\4} = 12
+\end{align*}
 The work done by the force \textbf{F} is 12 J
 \section*{Links}
 Download all the codes from \href{https://github.com/anjanavasudevan/grad_schoolwork/blob/master/EE5609/Assignment1/assignment.py}{here} 

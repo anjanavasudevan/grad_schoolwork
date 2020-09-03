@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  3 SEP 2020 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  3 SEP 2020 19:43
 entering extended mode
 **./Assignment1.tex
 (Assignment1.tex
@@ -303,9 +303,9 @@ Package rerunfilecheck Info: File `Assignment1.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 5647 strings out of 480790
- 83411 string characters out of 2910816
- 349357 words of memory out of 3000000
+ 5650 strings out of 480790
+ 83447 string characters out of 2910816
+ 350357 words of memory out of 3000000
  21562 multiletter control sequences out of 15000+200000
  542632 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -317,9 +317,9 @@ sfonts/cm/cmbx7.pfb><D:/LateX/miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 ts/type1/public/amsfonts/cm/cmr10.pfb><D:/LateX/miktex/fonts/type1/public/amsfo
 nts/cm/cmr12.pfb><D:/LateX/miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/
 LateX/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Assignment1.pdf (1 page, 93909 bytes).
+Output written on Assignment1.pdf (1 page, 94421 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
+ 57 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

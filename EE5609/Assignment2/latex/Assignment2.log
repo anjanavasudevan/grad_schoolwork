@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  7 SEP 2020 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  8 SEP 2020 10:44
 entering extended mode
 **./Assignment2.tex
 (Assignment2.tex
@@ -290,30 +290,23 @@ LaTeX Info: Redefining \nameref on input line 13.
 \@outlinefile=\write3
 \openout3 = `Assignment2.out'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
  [1
 
 {C:/Users/admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
  (Assignment2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
-
-
-Package rerunfilecheck Warning: File `Assignment2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Assignment2.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  44D124E2A8BFC2F8AB56259BB5D55263;91.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
+Package rerunfilecheck Info: File `Assignment2.out' has not changed.
+(rerunfilecheck)             Checksum: 44D124E2A8BFC2F8AB56259BB5D55263;91.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
  ) 
 Here is how much of TeX's memory you used:
- 5650 strings out of 480790
- 83445 string characters out of 2910816
- 348369 words of memory out of 3000000
- 21562 multiletter control sequences out of 15000+200000
+ 5654 strings out of 480790
+ 83475 string characters out of 2910816
+ 348410 words of memory out of 3000000
+ 21566 multiletter control sequences out of 15000+200000
  542632 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,8n,29p,466b,315s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -321,9 +314,9 @@ Here is how much of TeX's memory you used:
 onts/type1/public/amsfonts/cm/cmmi10.pfb><D:/LateX/miktex/fonts/type1/public/am
 sfonts/cm/cmr10.pfb><D:/LateX/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 D:/LateX/miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Assignment2.pdf (1 page, 60995 bytes).
+Output written on Assignment2.pdf (1 page, 61532 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 

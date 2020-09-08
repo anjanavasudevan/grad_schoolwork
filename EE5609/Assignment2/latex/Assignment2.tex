@@ -2,28 +2,32 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{hyperref}
-\usepackage{bm}
+\usepackage{multirow}
 \hypersetup{
 colorlinks = true,
 urlcolor = blue,}
-\title{Assignmentxx}
+\title{Assignment 2}
 \author{Anjana V }
 \date{Insert date of submission}
 
 \begin{document}
+\numberwithin{equation}{subsection}
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 \renewcommand{\vec}[1]{\mathbf{#1}}
 \maketitle
 \section{Question No. 55}
 Examine the consistency of the system of given equations:
 \begin{align}
-\label{eqn1}
-x+y+z = 1
-\\2x+3y+2z = 2
-\\ax+ay+2az = 4
+		x+y+z =1 
+		\\2x+3y+2z = 2
+		\\ax+ay+2az = 4
 \end{align}
 \section{Answer}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The above system of equations can be expressed in the form of matrix:
+\begin{align}
+\myvec{1 & 1 & 1\\2 & 3 & 2\\a & a & 2a} \myvec{x\\y\\z} = \myvec{1\\2\\4}
+\end{align}
+The above system will be consistent only if 
 \section*{Links}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit.
 \end{document}

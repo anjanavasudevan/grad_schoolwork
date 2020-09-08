@@ -1,20 +1,70 @@
-\documentclass{article}
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{listings}
 \usepackage{hyperref}
 \usepackage{multirow}
+
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+
+\renewcommand\thesectiondis{\arabic{section}}
+\renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
+\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
+
+\lstset{
+%language=C,
+frame=single, 
+breaklines=true,
+columns=fullflexible
+}
+
+\def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
+     \def\rightbox#1{\makebox[0in][r]{#1}}
+     \def\centbox#1{\makebox[0in]{#1}}
+     \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
+     \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
+\vspace{3cm}
+
 \hypersetup{
 colorlinks = true,
 urlcolor = blue,}
-\title{Assignment 2}
+\title{ASSIGNMENT 2}
 \author{Anjana V }
-\date{Insert date of submission}
 
 \begin{document}
 \numberwithin{equation}{subsection}
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\newcommand{\BAR}{%
+  \hspace{-\arraycolsep}%
+  \strut\vrule % the `\vrule` is as high and deep as a strut
+  \hspace{-\arraycolsep}%
+}
 \renewcommand{\vec}[1]{\mathbf{#1}}
 \maketitle
+\begin{abstract}
+This document examines the consistency of equations.
+\end{abstract}
+Download all python codes from 
+%
+\begin{lstlisting}
+a
+\end{lstlisting}
+%
+and latex-tikz codes from 
+%
+\begin{lstlisting}
+https://github.com/anjanavasudevan/grad_schoolwork/tree/master/EE5609/Assignment2/latex
+\end{lstlisting}
+%
 \section{Question No. 55}
 Examine the consistency of the system of given equations:
 \begin{align}
@@ -23,11 +73,28 @@ Examine the consistency of the system of given equations:
 		\\ax+ay+2az = 4
 \end{align}
 \section{Answer}
-The above system of equations can be expressed in the form of matrix:
+Assume that $a$ is any real number. The above system of equations can be expressed in the form of matrix:
 \begin{align}
 \myvec{1 & 1 & 1\\2 & 3 & 2\\a & a & 2a} \myvec{x\\y\\z} = \myvec{1\\2\\4}
 \end{align}
-The above system will be consistent only if 
-\section*{Links}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit.
+This is in the form of:
+\begin{align}
+\label{eqn_aug}
+\vec{Ax}=\vec{B}
+\end{align}
+The system defined above has a solution only when
+\begin{align*}
+rank(\vec{A|B}) = rank(\vec{A}) = dim(\vec{A})
+\end{align*}
+Reducing the augmented matrix to row echelon form, we get:
+\begin{align}
+\myvec{1 & 1 & 1 & \BAR & 1 \\2 & 3 & 2 & \BAR & 2 \\a & a & 2a & \BAR & 4}
+\xleftrightarrow[]{R_2\rightarrow R_2-2R_1}
+\myvec{1 & 1 & 1 & \BAR & 1 \\0 & 1 & 0 & \BAR & 0 \\a & a & 2a & \BAR & 4}
+\\ \myvec{1 & 1 & 1 & \BAR & 1 \\0 & 1 & 0 & \BAR & 0 \\a & a & 2a & \BAR & 4}\xleftrightarrow[]{R_3\rightarrow R_3-aR_1}
+\myvec{1 & 1 & 1 & \BAR & 1 \\0 & 1 & 0 & \BAR & 0 \\0 & 0 & a & \BAR & 4-a}
+\\ \implies rank(\vec{A}) = rank(\vec{A|B}) = dim(\vec{A})
+\end{align}
+The system of equations is consistent and has a unique solution except at $a = 0$.
+
 \end{document}

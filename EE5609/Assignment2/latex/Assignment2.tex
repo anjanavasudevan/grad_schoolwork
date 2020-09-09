@@ -29,6 +29,9 @@ columns=fullflexible
      \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
 \vspace{3cm}
 
+\title{ASSIGNMENT 2}
+\author{Anjana V\\AI20MTECH14010 }
+
 \begin{document}
 \numberwithin{equation}{subsection}
 \makeatletter
@@ -51,7 +54,7 @@ This document examines the consistency of equations.
 Download all python codes from 
 %
 \begin{lstlisting}
-a
+https://github.com/anjanavasudevan/grad_schoolwork/tree/master/EE5609/Assignment2
 \end{lstlisting}
 %
 and latex-tikz codes from 
@@ -90,5 +93,13 @@ Reducing the augmented matrix to row echelon form, we get:
 \myvec{1 & 1 & 1 & \BAR & 1 \\0 & 1 & 0 & \BAR & 0 \\0 & 0 & a & \BAR & 4-a}
 \\ \implies rank(\vec{A}) = rank(\vec{A|B}) = dim(\vec{A})
 \end{align}
-The system of equations is consistent and has a unique solution except at $a = 0$.
+The system of equations is consistent and has a unique solution except at $\vec{a = 0}$.
+
+Back-solving the above set of equations, we get:
+\begin{align}
+%z = \frac{4-a}{a}
+%\\y = 0
+%\\x = \frac{2(a - 2)}{a}\\
+\vec{x} = \myvec{\frac{2(a - 2)}{a} \\ 0 \\ \frac{4-a}{a}}
+\end{align}
 \end{document}

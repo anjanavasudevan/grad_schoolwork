@@ -3,12 +3,12 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-# a = int(input())
+a = int(input())
 # Defining input
 eq_1 = np.array([[1, 1, 1]])
 eq_2 = np.array([[2, 3, 2]])
 eq_3 = np.array([[1, 1, 2]])
-# eq_3 = a * eq_3
+eq_3 = a * eq_3
 
 A = np.concatenate((eq_1, eq_2, eq_3), axis = 0)
 B = np.array([[1, 2, 4]])
@@ -29,7 +29,7 @@ else:
 
 # Solving the equation
 solution = np.linalg.solve(A, B1)
-# print(solution[1])
+print(solution)
 
 #Plotting the solution
 fig = plt.figure().gca(projection='3d')
@@ -43,17 +43,17 @@ z_3 = (4 - (X + Y))/2
 
 # Setting up the plot
 
-fig.plot_surface(X, Y, z_1, color = "yellow", alpha = 0.3)
-fig.plot_surface(X, Y, z_2, color = "red", alpha = 0.3)
-fig.plot_surface(X, Y, z_3, color = "blue", alpha = 0.2)
-fig.plot([solution[0]], [solution[1]], [solution[2]], markerfacecolor='k', markeredgecolor='k', marker='o', markersize=5, alpha=0.6)
-fig.set_xlabel('x', color='blue')
-fig.set_ylabel('y', color='blue')
-fig.set_zlabel('z', color='blue')
-yellow_proxy = plt.Rectangle((0, 0), 1, 1, fc='y', alpha = 0.3)
-red_proxy = plt.Rectangle((0, 0), 1, 1, fc='r', alpha = 0.3)
-blue_proxy = plt.Rectangle((0, 0), 1, 1, fc='b', alpha = 0.2)
-black_proxy = plt.Line2D([0], [0], linestyle="none", marker='o', alpha=0.6, markersize=10, markerfacecolor='black')
-fig.legend([yellow_proxy,red_proxy, blue_proxy, black_proxy], [r'$x+y-z=1$',r'$x-y+z=1$', r'$-x+y+z=1$', r'$Sol.\; (1,1,1)$'], numpoints=1, loc='upper left')
-fig.set_title(r'$Graphical\; Representation\; of\; the\; System\;$', fontsize=18)
-plt.show()
+#fig.plot_surface(X, Y, z_1, color = "yellow", alpha = 0.3)
+#fig.plot_surface(X, Y, z_2, color = "red", alpha = 0.3)
+#fig.plot_surface(X, Y, z_3, color = "blue", alpha = 0.2)
+#fig.plot([solution[0]], [solution[1]], [solution[2]], markerfacecolor='k', markeredgecolor='k', marker='o', markersize=5, alpha=0.6)
+#fig.set_xlabel('x', color='blue')
+#fig.set_ylabel('y', color='blue')
+#fig.set_zlabel('z', color='blue')
+#yellow_proxy = plt.Rectangle((0, 0), 1, 1, fc='y', alpha = 0.3)
+#red_proxy = plt.Rectangle((0, 0), 1, 1, fc='r', alpha = 0.3)
+#blue_proxy = plt.Rectangle((0, 0), 1, 1, fc='b', alpha = 0.2)
+#black_proxy = plt.Line2D([0], [0], linestyle="none", marker='o', alpha=0.6, markersize=10, markerfacecolor='black')
+#fig.legend([yellow_proxy,red_proxy, blue_proxy, black_proxy], [r'$x+y-z=1$',r'$x-y+z=1$', r'$-x+y+z=1$', r'$Sol.\; (1,1,1)$'], numpoints=1, loc='upper left')
+#fig.set_title(r'$Graphical\; Representation\; of\; the\; System\;$', fontsize=18)
+#plt.show()

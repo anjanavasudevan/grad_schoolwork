@@ -81,9 +81,9 @@ This is in the form of:
 \vec{Ax}=\vec{B}
 \end{align}
 The system defined above is consistent and has a solution only when
-\begin{align*}
+\begin{align}
 rank(\vec{A|B}) = rank(\vec{A}) = dim(\vec{A})
-\end{align*}
+\end{align}
 Reducing the augmented matrix to row echelon form, we get:
 \begin{align}
 \myvec{1 & 1 & 1 & \BAR & 1 \\2 & 3 & 2 & \BAR & 2 \\a & a & 2a & \BAR & 4}
@@ -93,7 +93,7 @@ Reducing the augmented matrix to row echelon form, we get:
 \myvec{1 & 1 & 1 & \BAR & 1 \\0 & 1 & 0 & \BAR & 0 \\0 & 0 & a & \BAR & 4-a}
 \\ \implies rank(\vec{A}) = rank(\vec{A|B}) = dim(\vec{A})
 \end{align}
-The system of equations is consistent and has a unique solution except at $\vec{a = 0}$.
+The system of equations is consistent and has a unique solution except at $a = 0$.
 
 Back-solving the above set of equations, we get:
 \begin{align}

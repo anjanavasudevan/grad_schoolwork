@@ -1,0 +1,105 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{multirow}
+
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+
+\renewcommand\thesectiondis{\arabic{section}}
+\renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
+\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
+
+\lstset{
+%language=C,
+frame=single, 
+breaklines=true,
+columns=fullflexible
+}
+
+\def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
+     \def\rightbox#1{\makebox[0in][r]{#1}}
+     \def\centbox#1{\makebox[0in]{#1}}
+     \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
+     \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
+\vspace{3cm}
+
+\title{ASSIGNMENT 3}
+\author{Anjana V\\AI20MTECH14010 }
+
+\begin{document}
+\numberwithin{equation}{subsection}
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\maketitle
+\begin{abstract}
+This document solves determinant of a matrix using its properties
+\end{abstract}
+Download all python codes from 
+%
+\begin{lstlisting}
+https://github.com/anjanavasudevan/grad_schoolwork/tree/master/EE5609/Assignment2
+\end{lstlisting}
+%
+and latex-tikz codes from 
+%
+\begin{lstlisting}
+https://github.com/anjanavasudevan/grad_schoolwork/tree/master/EE5609/Assignment2/latex
+\end{lstlisting}
+%
+\section{Question No. 55}
+By using properties of determinants, show that:
+\begin{align}
+\mydet{1 & 1 & 1\\a & b & c\\a^3 & b^3 & c^3} = (a-b)(b-c)(c-a)(a+b+c)
+\end{align}
+\section{Answer}
+The following properties of determinants will be used to solve the problem:
+\begin{enumerate}
+\item If a row or column of matrix is multiplied by a constant $k$, the determinant is multiplied by the same constant $k$
+\item Row or column transformations do not affect the determinant of a matrix.
+\end{enumerate}
+Using column operations to simplify the equation, we get:
+\begin{align}
+\mydet{1 & 1 & 1\\a & b & c\\a^3 & b^3 & c^3} \xleftrightarrow[]{C_1\rightarrow C_1-C_2} \mydet{0 & 1 & 1\\a-b & b & c\\a^3-b^3 & b^3 & c^3}\\
+\mydet{0 & 1 & 1\\a-b & b & c\\a^3-b^3 & b^3 & c^3} \xleftrightarrow[]{C_2\rightarrow C_2-C_3} \mydet{0 & 0 & 1\\a-b & b-c & c\\a^3 - b^3 & b^3 - c^3 & c^3}
+\end{align}
+Taking out common factors $a-b$ and $b-c$ from $C_1$ and $C_2$ respectively, we get:
+\begin{align}
+(a-b)(b-c)\mydet{0 & 0 & 1\\1 & 1 & c\\a^2+ab+b^2 & b^2+bc+c^2 & c^3}
+\end{align}
+Further column operations give:
+\begin{align}
+ \xleftrightarrow[]{C_1\rightarrow C_1-C_2}(a-b)(b-c)
+ \mydet{0 & 0 & 1\\0 & 1 & c\\a^2+ab-bc-c^2 & b^2+bc+c^2 & c^3}
+\end{align}
+\begin{align}
+\implies (a-b)(b-c)\mydet{0 & 0 & 1\\0 & 1 & c\\(a^2-c^2)+b(a-c)& b^2+bc+c^2 & c^3}
+\end{align}
+\begin{align}
+\implies (a-b)(b-c)
+\mydet{0 & 0 & 1\\0 & 1 & c\\k & b^2+bc+c^2 & c^3}
+\end{align}
+Where 
+\begin{align}
+k = (a-c)(a+c)+b(a-c)
+\end{align}
+Taking $a-c$ from $C_1$, we get
+\begin{align}
+\implies (a-b)(b-c)(a-c) \mydet{0 & 0 & 1\\0 & 1 & c\\a+b+c & b^2+bc+c^2 & c^3}
+\end{align}
+\begin{align}
+=(a-b)(b-c)(a-c)(-1)(a+b+c)\\=(a-b)(b-c)(c-a)(a+b+c)
+\end{align}
+\end{document}

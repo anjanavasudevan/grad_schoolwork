@@ -261,13 +261,23 @@ By using properties of determinants, show that:
 \section{Construction}
 
 \section{Solution}
-
-%\subsection{Sol.a)}
-%\input{./chapters/sol_a.tex}
-%\subsection{Sol.b)}
-%\input{./chapters/sol_b.tex}
-%\subsection{Sol.c)}
-%\input{./chapters/sol_c.tex}
-%\subsection{Sol.d)}
-%\input{chapters/sol_d.tex}
+Using column operations to simplify the equation, we get:
+\begin{align}
+\mydet{1 & 1 & 1\\a & b & c\\a^3 & b^3 & c^3} \xleftrightarrow[]{C_1\rightarrow C_1-C_2} \mydet{0 & 1 & 1\\a-b & b & c\\a^3-b^3 & b^3 & c^3}\\
+\mydet{0 & 1 & 1\\a-b & b & c\\a^3-b^3 & b^3 & c^3} \xleftrightarrow[]{C_2\rightarrow C_2-C_3} \mydet{0 & 0 & 1\\a-b & b-c & c\\a^3 - b^3 & b^3 - c^3 & c^3}
+\end{align}
+Taking out common factors $a-b$ and $b-c$ from $C_1$ and $C_2$ respectively, we get:
+\begin{align}
+(a-b)(b-c)\mydet{0 & 0 & 1\\1 & 1 & c\\a^2+ab+b^2 & b^2+bc+c^2 & c^3}
+\end{align}
+Further column operations give:
+\begin{align}
+ \xleftrightarrow[]{C_1\rightarrow C_1-C_2}(a-b)(b-c)\mydet{0 & 0 & 1\\0 & 1 & c\\a^2+ab-bc-c^2 & b^2+bc+c^2 & c^3}\\
+\implies (a-b)(b-c)\mydet{0 & 0 & 1\\0 & 1 & c\\(a^2-c^2)+b(a-c)& b^2+bc+c^2 & c^3}\\
+\implies (a-b)(b-c)\mydet{0 & 0 & 1\\0 & 1 & c\\(a-c)(a+c)+b(a-c) & b^2+bc+c^2 & c^3}\\
+\end{align}
+Taking $a-c$ from $C_1$, we get
+\begin{align}
+\implies (a-b)(b-c)(a-c) \mydet{0 & 0 & 1\\0 & 1 & c\\a & b^2+bc+c^2 & c^3}
+\end{align}
 \end{document}

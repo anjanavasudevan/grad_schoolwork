@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  13 SEP 2020 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  14 SEP 2020 10:20
 entering extended mode
 **./Assignment3.tex
 (Assignment3.tex
@@ -23,7 +23,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen137
--- This is a 12 point document.
+-- This is an 11 point document.
 \CLASSINFOnormalsizebaselineskip=\dimen138
 \CLASSINFOnormalsizeunitybaselineskip=\dimen139
 \IEEEnormaljot=\dimen140
@@ -47,24 +47,24 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <22> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
@@ -510,28 +510,28 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
 (Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <11> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <11> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
-LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <17> not available
 (Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
-LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
 (Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
 (Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
 
--- Lines per column: 50 (exact).
+-- Lines per column: 52 (exact).
 (D:\LateX\miktex\tex/latex/graphics\graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -593,64 +593,60 @@ LaTeX Info: Redefining \nameref on input line 35.
 \@outlinefile=\write3
 \openout3 = `Assignment3.out'.
 
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-4.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 58.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
+8.
 
 (D:\LateX\miktex\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-4.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 5
+8.
 
 (D:\LateX\miktex\tex/latex/txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-4.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 5
+8.
 
 (D:\LateX\miktex\tex/latex/txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-4.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
+8.
 
 (D:\LateX\miktex\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-Overfull \hbox (39.64014pt too wide) detected at line 86
+Overfull \hbox (19.85837pt too wide) detected at line 77
 []
  []
 
 
-Overfull \hbox (28.29387pt too wide) detected at line 89
+Overfull \hbox (7.72734pt too wide) detected at line 80
 []
  []
 
-
-Overfull \hbox (11.30186pt too wide) detected at line 101
-[]
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
 [1{C:/Users/admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
 
 (Assignment3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `Assignment3.out' has not changed.
 (rerunfilecheck)             Checksum: CA52A3382DC01723DB4B89BF84300555;98.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 10043 strings out of 480790
- 147357 string characters out of 2910816
- 443963 words of memory out of 3000000
- 25865 multiletter control sequences out of 15000+200000
- 592264 words of font info for 140 fonts, out of 3000000 for 9000
+ 10047 strings out of 480790
+ 147483 string characters out of 2910816
+ 448969 words of memory out of 3000000
+ 25869 multiletter control sequences out of 15000+200000
+ 595980 words of font info for 146 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,18n,36p,236b,1011s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/LateX/miktex/fonts/enc/dvips/base/8r.enc}<D:/LateX/miktex/fonts/type1/pub
@@ -659,9 +655,9 @@ LateX/miktex/fonts/type1/public/txfonts/txex.pfb><D:/LateX/miktex/fonts/type1/p
 ublic/txfonts/txsy.pfb><D:/LateX/miktex/fonts/type1/urw/times/utmb8a.pfb><D:/La
 teX/miktex/fonts/type1/urw/times/utmbi8a.pfb><D:/LateX/miktex/fonts/type1/urw/t
 imes/utmr8a.pfb><D:/LateX/miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Assignment3.pdf (1 page, 57726 bytes).
+Output written on Assignment3.pdf (1 page, 56317 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
+ 72 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
  17 words of extra memory for PDF output out of 10000 (max. 10000000)
 

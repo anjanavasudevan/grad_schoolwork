@@ -1,4 +1,4 @@
-\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\documentclass[journal,11pt,twocolumn]{IEEEtran}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{mathtools}
@@ -34,12 +34,6 @@ columns=fullflexible
 
 \begin{document}
 \numberwithin{equation}{subsection}
-\makeatletter
-\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
-  \hskip -\arraycolsep
-  \let\@ifnextchar\new@ifnextchar
-  \array{#1}}
-\makeatother
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 \newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
 \renewcommand{\vec}[1]{\mathbf{#1}}
@@ -65,21 +59,18 @@ By using properties of determinants, show that:
 \mydet{1 & 1 & 1\\a & b & c\\a^3 & b^3 & c^3} = (a-b)(b-c)(c-a)(a+b+c)
 \end{align}
 \section{Answer}
-The following properties of determinants will be used to solve the problem:
-\begin{enumerate}
-\item If a row or column of matrix is multiplied by a constant $k$, the determinant is multiplied by the same constant $k$
-\item Row or column transformations do not affect the determinant of a matrix.
-\end{enumerate}
 Using column operations to simplify the equation, we get:
 \begin{align}
-\mydet{1 & 1 & 1\\a & b & c\\a^3 & b^3 & c^3} \xleftrightarrow[]{C_1\rightarrow C_1-C_2} \mydet{0 & 1 & 1\\a-b & b & c\\a^3-b^3 & b^3 & c^3}\\
-\mydet{0 & 1 & 1\\a-b & b & c\\a^3-b^3 & b^3 & c^3} \xleftrightarrow[]{C_2\rightarrow C_2-C_3} \mydet{0 & 0 & 1\\a-b & b-c & c\\a^3 - b^3 & b^3 - c^3 & c^3}
+\mydet{1 & 1 & 1\\a & b & c\\a^3 & b^3 & c^3} \xleftrightarrow[]{C_1\rightarrow C_1-C_2} 
+\mydet{0 & 1 & 1\\a-b & b & c\\a^3-b^3 & b^3 & c^3}
 \end{align}
-Taking out common factors $a-b$ and $b-c$ from $C_1$ and $C_2$ respectively, we get:
+\begin{align}
+\mydet{0 & 1 & 1\\a-b & b & c\\a^3-b^3 & b^3 & c^3} &\xleftrightarrow[]{C_2\rightarrow C_2-C_3} \notag
+\\ \mydet{0 & 0 & 1\\a-b & b-c & c\\a^3 - b^3 & b^3 - c^3 & c^3}
+\end{align}
 \begin{align}
 (a-b)(b-c)\mydet{0 & 0 & 1\\1 & 1 & c\\a^2+ab+b^2 & b^2+bc+c^2 & c^3}
 \end{align}
-Further column operations give:
 \begin{align}
  \xleftrightarrow[]{C_1\rightarrow C_1-C_2}(a-b)(b-c)
  \mydet{0 & 0 & 1\\0 & 1 & c\\a^2+ab-bc-c^2 & b^2+bc+c^2 & c^3}
@@ -95,7 +86,6 @@ Where
 \begin{align}
 k = (a-c)(a+c)+b(a-c)
 \end{align}
-Taking $a-c$ from $C_1$, we get
 \begin{align}
 \implies (a-b)(b-c)(a-c) \mydet{0 & 0 & 1\\0 & 1 & c\\a+b+c & b^2+bc+c^2 & c^3}
 \end{align}

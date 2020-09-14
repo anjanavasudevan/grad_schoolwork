@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  14 SEP 2020 10:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  14 SEP 2020 13:11
 entering extended mode
 **./Assignment3.tex
 (Assignment3.tex
@@ -23,7 +23,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen137
--- This is an 11 point document.
+-- This is a 12 point document.
 \CLASSINFOnormalsizebaselineskip=\dimen138
 \CLASSINFOnormalsizeunitybaselineskip=\dimen139
 \IEEEnormaljot=\dimen140
@@ -47,24 +47,24 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <22> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
@@ -311,6 +311,292 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
+(D:\LateX\miktex\tex/latex/nicematrix\nicematrix.sty
+(D:\LateX\miktex\tex/latex/pgf/basiclayer\pgfcore.sty
+(D:\LateX\miktex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\LateX\miktex\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\LateX\miktex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(D:\LateX\miktex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(D:\LateX\miktex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen181
+\Gin@req@width=\dimen182
+)
+(D:\LateX\miktex\tex/latex/pgf/systemlayer\pgfsys.sty
+(D:\LateX\miktex\tex/latex/pgf/utilities\pgfrcs.sty
+(D:\LateX\miktex\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen183
+\pgfutil@tempdimb=\dimen184
+
+(D:\LateX\miktex\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
+(D:\LateX\miktex\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box52
+
+(D:\LateX\miktex\tex/latex/ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(D:\LateX\miktex\tex/generic/pgf/utilities\pgfrcs.code.tex
+(D:\LateX\miktex\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+(D:\LateX\miktex\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+(D:\LateX\miktex\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(D:\LateX\miktex\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen185
+\pgf@y=\dimen186
+\pgf@xa=\dimen187
+\pgf@ya=\dimen188
+\pgf@xb=\dimen189
+\pgf@yb=\dimen190
+\pgf@xc=\dimen191
+\pgf@yc=\dimen192
+\pgf@xd=\dimen193
+\pgf@yd=\dimen194
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count272
+\c@pgf@countb=\count273
+\c@pgf@countc=\count274
+\c@pgf@countd=\count275
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count276
+
+(D:\LateX\miktex\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(D:\LateX\miktex\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(D:\LateX\miktex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(D:\LateX\miktex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count277
+\pgfsyssoftpath@bigbuffer@items=\count278
+)
+(D:\LateX\miktex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(D:\LateX\miktex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(D:\LateX\miktex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmath.code.tex
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmathcalc.code.tex
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmathutil.code.tex)
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen195
+\pgfmath@count=\count279
+\pgfmath@box=\box53
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmathfunctions.code.tex
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex)
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex)
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(D:\LateX\miktex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.
+tex))) (D:\LateX\miktex\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count280
+))
+(D:\LateX\miktex\tex/generic/pgf/math\pgfint.code.tex)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen196
+\pgf@picmaxx=\dimen197
+\pgf@picminy=\dimen198
+\pgf@picmaxy=\dimen199
+\pgf@pathminx=\dimen256
+\pgf@pathmaxx=\dimen257
+\pgf@pathminy=\dimen258
+\pgf@pathmaxy=\dimen259
+\pgf@xx=\dimen260
+\pgf@xy=\dimen261
+\pgf@yx=\dimen262
+\pgf@yy=\dimen263
+\pgf@zx=\dimen264
+\pgf@zy=\dimen265
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen266
+\pgf@path@lasty=\dimen267
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen268
+\pgf@shorten@start@additional=\dimen269
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count281
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen270
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen271
+\pgf@pt@y=\dimen272
+\pgf@pt@temp=\dimen273
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen274
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen275
+\pgf@sys@shading@range@num=\count282
+\pgf@shadingcount=\count283
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box57
+))
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(D:\LateX\miktex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(D:\LateX\miktex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box58
+)
+(D:\LateX\miktex\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+(D:\LateX\miktex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2020-06-18 L3 programming layer (loader) 
+
+(D:\LateX\miktex\tex/latex/l3backend\l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count284
+\l__pdf_internal_box=\box59
+))
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
+)
+Package: nicematrix 2020/09/03 v5.3 Enhanced arrays with the help of PGF/TikZ
+
+(D:\LateX\miktex\tex/latex/tools\array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen276
+\ar@mcellbox=\box60
+\extrarowheight=\dimen277
+\NC@list=\toks35
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box61
+)
+(D:\LateX\miktex\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(D:\LateX\miktex\tex/latex/l3packages/xparse\xparse-generic.tex
+\l__xparse_current_arg_int=\count285
+\g__xparse_grabber_int=\count286
+\l__xparse_m_args_int=\count287
+\l__xparse_v_nesting_int=\count288
+))
+\g__nicematrix_env_int=\count289
+\g__nicematrix_NiceMatrixBlock_int=\count290
+\l__nicematrix_columns_width_dim=\dimen278
+\l__nicematrix_tabular_width_dim=\dimen279
+\l__nicematrix_old_iRow_int=\count291
+\l__nicematrix_old_jCol_int=\count292
+\l__nicematrix_x_initial_dim=\dimen280
+\l__nicematrix_y_initial_dim=\dimen281
+\l__nicematrix_x_final_dim=\dimen282
+\l__nicematrix_y_final_dim=\dimen283
+\l_tmpc_dim=\dimen284
+\l_tmpd_dim=\dimen285
+\__nicematrix_old_arraycolsep_dim=\dimen286
+\g__nicematrix_width_last_col_dim=\dimen287
+\g__nicematrix_width_first_col_dim=\dimen288
+\g__nicematrix_static_num_of_col_int=\count293
+\l__nicematrix_first_row_int=\count294
+\l__nicematrix_first_col_int=\count295
+\l__nicematrix_last_row_int=\count296
+\l__nicematrix_last_col_int=\count297
+\c@tabularnote=\count298
+\l__nicematrix_number_of_notes_int=\count299
+\l__nicematrix_cell_space_top_limit_dim=\dimen289
+\l__nicematrix_cell_space_bottom_limit_dim=\dimen290
+\l__nicematrix_inter_dots_dim=\dimen291
+\l__nicematrix_xdots_shorten_dim=\dimen292
+\l__nicematrix_radius_dim=\dimen293
+\l__nicematrix_notes_above_space_dim=\dimen294
+\l__nicematrix_left_margin_dim=\dimen295
+\l__nicematrix_right_margin_dim=\dimen296
+\l__nicematrix_extra_left_margin_dim=\dimen297
+\l__nicematrix_extra_right_margin_dim=\dimen298
+\c__nicematrix_max_l_dim=\dimen299
+)
 (D:\LateX\miktex\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
@@ -352,9 +638,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (D:\LateX\miktex\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen181
-\Hy@linkcounter=\count272
-\Hy@pagecounter=\count273
+\@linkdim=\dimen300
+\Hy@linkcounter=\count300
+\Hy@pagecounter=\count301
 
 (D:\LateX\miktex\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
@@ -367,7 +653,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (D:\LateX\miktex\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count274
+\Hy@SavedSpaceFactor=\count302
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -375,14 +661,14 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count275
+\c@Hy@tempcnt=\count303
 
 (D:\LateX\miktex\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen182
+\XeTeXLinkMargin=\dimen301
 
 (D:\LateX\miktex\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -391,9 +677,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count276
-\Field@Width=\dimen183
-\Fld@charsize=\dimen184
+\Fld@menulength=\count304
+\Field@Width=\dimen302
+\Fld@charsize=\dimen303
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -407,9 +693,9 @@ LaTeX Info: Redefining \pageref on input line 6421.
 (D:\LateX\miktex\tex/generic/atbegshi\atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count277
-\c@Item=\count278
-\c@Hfootnote=\count279
+\Hy@abspage=\count305
+\c@Item=\count306
+\c@Hfootnote=\count307
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -420,8 +706,8 @@ File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count280
-\c@bookmark@seq@number=\count281
+\Fld@listcount=\count308
+\c@bookmark@seq@number=\count309
 
 (D:\LateX\miktex\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -432,147 +718,123 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip57
+\Hy@SectionHShift=\skip59
 )
 (D:\LateX\miktex\tex/latex/multirow\multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip58
-\multirow@cntb=\count282
-\multirow@dima=\skip59
-\bigstrutjot=\dimen185
-)
-(D:\LateX\miktex\tex/latex/l3backend\l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count283
-\l__pdf_internal_box=\box52
+\multirow@colwidth=\skip60
+\multirow@cntb=\count310
+\multirow@dima=\skip61
+\bigstrutjot=\dimen304
 ) (Assignment3.aux)
 \openout1 = `Assignment3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 35.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 36.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-35.
+36.
 
 (D:\LateX\miktex\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 36.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-35.
+36.
 
 (D:\LateX\miktex\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 36.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-35.
+36.
 
 (D:\LateX\miktex\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 36.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 3
-5.
+6.
 
 (D:\LateX\miktex\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
-5.
+6.
 
 (D:\LateX\miktex\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <11> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
-LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <11> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
-LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <17> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 36.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 36.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 36.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 36.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 35.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 36.
 
--- Lines per column: 52 (exact).
-(D:\LateX\miktex\tex/latex/graphics\graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(D:\LateX\miktex\tex/latex/graphics\graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
-
-(D:\LateX\miktex\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(D:\LateX\miktex\tex/latex/graphics-cfg\graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 105.
-
-(D:\LateX\miktex\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-
+-- Lines per column: 50 (exact).
+\c@lstlisting=\count311
 (D:\LateX\miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count284
-\scratchdimen=\dimen186
-\scratchbox=\box53
-\nofMPsegments=\count285
-\nofMParguments=\count286
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count287
-\MPscratchDim=\dimen187
-\MPnumerator=\count288
-\makeMPintoPDFobject=\count289
-\everyMPtoPDFconversion=\toks26
-))) (D:\LateX\miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+\scratchcounter=\count312
+\scratchdimen=\dimen305
+\scratchbox=\box62
+\nofMPsegments=\count313
+\nofMParguments=\count314
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count315
+\MPscratchDim=\dimen306
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
+\everyMPtoPDFconversion=\toks37
+) (D:\LateX\miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-\Gin@req@height=\dimen188
-\Gin@req@width=\dimen189
-)
-\c@lstlisting=\count290
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 35.
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring OFF on input line 36.
 
 (D:\LateX\miktex\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -583,81 +845,100 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (D:\LateX\miktex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count291
+\c@section@level=\count318
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
 (Assignment3.out) (Assignment3.out)
-\@outlinefile=\write3
-\openout3 = `Assignment3.out'.
+\@outlinefile=\write4
+\openout4 = `Assignment3.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 58.
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
-8.
+9.
 
 (D:\LateX\miktex\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 5
-8.
+9.
 
 (D:\LateX\miktex\tex/latex/txfonts\utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 5
-8.
+9.
 
 (D:\LateX\miktex\tex/latex/txfonts\utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
-8.
+9.
 
 (D:\LateX\miktex\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-Overfull \hbox (19.85837pt too wide) detected at line 77
-[]
- []
+\g__nicematrix_max_cell_width_dim=\dimen307
+\l__nicematrix_cell_box=\box64
+\c@iRow=\count319
+\c@jCol=\count320
+\g__nicematrix_row_total_int=\count321
+\g__nicematrix_col_total_int=\count322
+\l__nicematrix_left_delim_dim=\dimen308
+\l__nicematrix_right_delim_dim=\dimen309
+\l__nicematrix_the_array_box=\box65
+\g__nicematrix_dp_row_zero_dim=\dimen310
+\g__nicematrix_ht_row_zero_dim=\dimen311
+\g__nicematrix_ht_row_one_dim=\dimen312
+\g__nicematrix_dp_ante_last_row_dim=\dimen313
+\g__nicematrix_ht_last_row_dim=\dimen314
+\g__nicematrix_dp_last_row_dim=\dimen315
+\g__nicematrix_ddots_int=\count323
+\g__nicematrix_iddots_int=\count324
+\g__nicematrix_delta_x_one_dim=\dimen316
+\g__nicematrix_delta_y_one_dim=\dimen317
+\g__nicematrix_delta_x_two_dim=\dimen318
+\g__nicematrix_delta_y_two_dim=\dimen319
+\l__nicematrix_initial_i_int=\count325
+\l__nicematrix_initial_j_int=\count326
+\l__nicematrix_final_i_int=\count327
+\l__nicematrix_final_j_int=\count328
+ [1{C:/Users/admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
-
-Overfull \hbox (7.72734pt too wide) detected at line 80
-[]
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
-[1{C:/Users/admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
-
-(Assignment3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
+ (Assignment3.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `Assignment3.out' has not changed.
 (rerunfilecheck)             Checksum: CA52A3382DC01723DB4B89BF84300555;98.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 10047 strings out of 480790
- 147483 string characters out of 2910816
- 448969 words of memory out of 3000000
- 25869 multiletter control sequences out of 15000+200000
- 595980 words of font info for 146 fonts, out of 3000000 for 9000
+ 21278 strings out of 480790
+ 395257 string characters out of 2910816
+ 704899 words of memory out of 3000000
+ 36915 multiletter control sequences out of 15000+200000
+ 592264 words of font info for 140 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,18n,36p,236b,1011s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,19n,56p,436b,1013s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/LateX/miktex/fonts/enc/dvips/base/8r.enc}<D:/LateX/miktex/fonts/type1/pub
 lic/txfonts/rtxr.pfb><D:/LateX/miktex/fonts/type1/public/txfonts/rtxsc.pfb><D:/
 LateX/miktex/fonts/type1/public/txfonts/txex.pfb><D:/LateX/miktex/fonts/type1/p
 ublic/txfonts/txsy.pfb><D:/LateX/miktex/fonts/type1/urw/times/utmb8a.pfb><D:/La
 teX/miktex/fonts/type1/urw/times/utmbi8a.pfb><D:/LateX/miktex/fonts/type1/urw/t
 imes/utmr8a.pfb><D:/LateX/miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Assignment3.pdf (1 page, 56317 bytes).
+Output written on Assignment3.pdf (1 page, 58281 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

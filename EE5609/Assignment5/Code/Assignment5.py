@@ -3,7 +3,7 @@ import numpy as np
 from numpy import linalg as LA
 
 # Defining the general equation of circle
-def circleGenerate(O,r):
+def circ_gen(O,r):
 	len = 50
 	theta = np.linspace(0,2*np.pi,len)
 	x_circ = np.zeros((2,len))
@@ -21,20 +21,28 @@ f = 25
 r = np.sqrt(LA.norm(u)**2-f)
 
 # Generating the circle
-circle = circleGenerate(u, r)
+circle = circ_gen(u, r)
+
+# Points:
+A = np.array(([1, 2]))
+B = np.array(([3, -4]))
+C = np.array(([5, -6]))
+points = np.vstack((A, B, C)).T
+labels = ['(1, 2)', '(3, -4)', '(5, -6)']
 
 # Plotting the circle
 plt.plot(circle[0,:],circle[1,:],label='$circle$')
+plt.scatter(points[0,:], points[1,:])
+plt.scatter(u[0], u[1], color = 'red')
 
-# Marking the points
-plt.annotate("(1, 2)", (1, 2), (1.1, 2))
-plt.annotate("(3, -4)", (3, -4), (3.1, -4))
-plt.annotate("(5, -6)", (5, -6), (5.1, -6))
-plt.annotate("(11, 2)", (u[0], u[1]), (u[0]+0.1, u[1]))
-plt.scatter(1,2,color='blue')
-plt.scatter(3,-4,color='blue')
-plt.scatter(5,-6,color='blue')
-plt.scatter(u[0],u[1],color='red')
+# Annotate the points
+for i, txt in enumerate(labels):
+    plt.annotate(txt, # this is the text
+                 (points[0,i], points[1,i]), 
+                 textcoords="offset points",
+                 xytext=(0,10),
+                 ha='left') 
+plt.annotate('(11, 2)', (u[0], u[1]), textcoords="offset points", xytext=(0,10), ha='left')
 
 plt.xlabel('$x-axis$')
 plt.ylabel('$y-axis$')

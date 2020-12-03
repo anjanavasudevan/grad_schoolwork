@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  2 DEC 2020 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  3 DEC 2020 10:55
 entering extended mode
 **./Assignment6.tex
 (Assignment6.tex
@@ -1548,24 +1548,36 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 
 (D:\LateX\miktex\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) [1{C:/Users/admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+)
+<Figure_1.png, id=44, 462.528pt x 346.896pt>
+File: Figure_1.png Graphic file (type png)
+<use Figure_1.png>
+Package pdftex.def Info: Figure_1.png  used on input line 321.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+ [1{C:/Users/admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 318.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
+] [2
+
+ <./Figure_1.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
  (Assignment6.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 318.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
 Package rerunfilecheck Info: File `Assignment6.out' has not changed.
 (rerunfilecheck)             Checksum: 422DF17842C047C9DF4DB285ADBEAA76;84.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 318.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
  ) 
 Here is how much of TeX's memory you used:
- 41271 strings out of 480790
- 932724 string characters out of 2910816
+ 41287 strings out of 480790
+ 932958 string characters out of 2910816
  1388630 words of memory out of 3000000
- 56440 multiletter control sequences out of 15000+200000
+ 56452 multiletter control sequences out of 15000+200000
  597190 words of font info for 154 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,19n,91p,505b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1576,9 +1588,9 @@ public/txfonts/txex.pfb><D:/LateX/miktex/fonts/type1/public/txfonts/txsy.pfb><D
 :/LateX/miktex/fonts/type1/urw/times/utmb8a.pfb><D:/LateX/miktex/fonts/type1/ur
 w/times/utmbi8a.pfb><D:/LateX/miktex/fonts/type1/urw/times/utmr8a.pfb><D:/LateX
 /miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Assignment6.pdf (1 page, 70841 bytes).
+Output written on Assignment6.pdf (2 pages, 96892 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  7 DEC 2020 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  7 DEC 2020 18:26
 entering extended mode
 **./Assignment7.tex
 (Assignment7.tex
@@ -1549,9 +1549,6 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 (D:\LateX\miktex\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-Underfull \vbox (badness 1515) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{C:/Users/admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
@@ -1572,13 +1569,13 @@ Package rerunfilecheck Info: File `Assignment7.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 393.
  ) 
 Here is how much of TeX's memory you used:
- 41298 strings out of 480790
- 933085 string characters out of 2910816
- 1390630 words of memory out of 3000000
+ 41297 strings out of 480790
+ 933107 string characters out of 2910816
+ 1382630 words of memory out of 3000000
  56440 multiletter control sequences out of 15000+200000
  599882 words of font info for 158 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,20n,91p,505b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,20n,91p,505b,1013s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/LateX/miktex/fonts/enc/dvips/base/8r.enc}<D:/LateX/miktex/fonts/type1/pub
 lic/txfonts/rtxmi.pfb><D:/LateX/miktex/fonts/type1/public/txfonts/rtxr.pfb><D:/
 LateX/miktex/fonts/type1/public/txfonts/rtxsc.pfb><D:/LateX/miktex/fonts/type1/
@@ -1586,9 +1583,9 @@ public/txfonts/txex.pfb><D:/LateX/miktex/fonts/type1/public/txfonts/txsy.pfb><D
 :/LateX/miktex/fonts/type1/urw/times/utmb8a.pfb><D:/LateX/miktex/fonts/type1/ur
 w/times/utmbi8a.pfb><D:/LateX/miktex/fonts/type1/urw/times/utmr8a.pfb><D:/LateX
 /miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Assignment7.pdf (2 pages, 81548 bytes).
+Output written on Assignment7.pdf (2 pages, 81435 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

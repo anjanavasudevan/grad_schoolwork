@@ -344,4 +344,50 @@ Let $t = 1$. The eigenvector $\vec{p_2}$ is:
 \begin{align}
   \vec{p_2} = \myvec{\frac{-1}{3} \\[0.2cm] 1}
 \end{align}
+As $\vec{V} = \vec{V}^T$, there exists an orthogonal matrix P such that:
+\begin{align}
+  \vec{PVP}^T = \vec{D} = diag(\lambda_1, \lambda_2)
+\end{align}
+$\vec{V}$ can be rewritten using the above equation as:
+\begin{align}
+  \vec{V} = \vec{PDP}^T
+\end{align}
+where,
+\begin{align}
+  \vec{P} = \myvec{\vec{p_1} & \vec{p_2}} \\
+  \vec{D} = \myvec{\lambda_1 & 0 \\ 0 & \lambda_2}
+\end{align}
+Substituting the values -
+\begin{align}
+  \vec{P} = \myvec{3 & \frac{-1}{3}\\[0.2cm] 1 & 1} \\
+  \vec{D} = \myvec{\frac{5}{2} & 0 \\[0.2cm] 0 & \frac{-5}{2}}
+\end{align}
+The center of hyperbola is given by:
+\begin{align}
+  \vec{c} = -\vec{V}^{-1}\vec{u} \\
+  \implies \vec{c} = -\myvec{\frac{8}{25} & \frac{6}{25} \\[0.2cm] \frac{6}{25} & \frac{-8}{25}} \myvec{\frac{-7}{2} \\[0.2cm]\frac{1}{2}} = \myvec{1 \\ 1}
+\end{align}
+As
+\begin{align}
+  \vec{u}^T\vec{V}^{-1}\vec{u} - f = 5 > 0
+\end{align}
+there is no requirement for swapping the axes (which will be evident from the equation below). The axes of the hyperbola are given by:
+\begin{align}
+  axes = \begin{cases}
+    \sqrt[]{\frac{\vec{u}^T\vec{V}^{-1}\vec{u} - f}{\lambda_1}} \\
+    \sqrt[]{\frac{f - \vec{u}^T\vec{V}^{-1}\vec{u}}{\lambda_2}}
+  \end{cases} \\
+  \implies \sqrt[]{\frac{\vec{u}^T\vec{V}^{-1}\vec{u} - f}{\lambda_1}} = \sqrt[]{2} \\
+  \implies \sqrt[]{\frac{f - \vec{u}^T\vec{V}^{-1}\vec{u}}{\lambda_2}} = \sqrt[]{2}
+\end{align}
+The standard form of conic can also be written as:
+\begin{align}
+  \vec{y}^T\vec{Dy} = \vec{u}^T\vec{V}^{-1}\vec{u} - f
+\end{align}
+where,
+\begin{align}
+  \vec{y} = \vec{P}^T(\vec{x-c}) \\
+  \implies \vec{y}^T \myvec{\frac{5}{2} & 0 \\[0.2cm] 0 & \frac{-5}{2}} \vec{y} -5 = 0
+\end{align}
+
 \end{document}

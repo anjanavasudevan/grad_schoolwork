@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  9 DEC 2020 20:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  9 DEC 2020 20:49
 entering extended mode
 **./Assignment8.tex
 (Assignment8.tex
@@ -1564,7 +1564,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
 Here is how much of TeX's memory you used:
  41264 strings out of 480790
  932654 string characters out of 2910816
- 1377630 words of memory out of 3000000
+ 1375630 words of memory out of 3000000
  56439 multiletter control sequences out of 15000+200000
  594702 words of font info for 151 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1577,7 +1577,7 @@ public/txfonts/txex.pfb><D:/LateX/miktex/fonts/type1/public/txfonts/txsy.pfb><D
 1/public/txfonts/txsyc.pfb><D:/LateX/miktex/fonts/type1/urw/times/utmb8a.pfb><D
 :/LateX/miktex/fonts/type1/urw/times/utmbi8a.pfb><D:/LateX/miktex/fonts/type1/u
 rw/times/utmr8a.pfb><D:/LateX/miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Assignment8.pdf (1 page, 75168 bytes).
+Output written on Assignment8.pdf (1 page, 75377 bytes).
 PDF statistics:
  124 PDF objects out of 1000 (max. 8388607)
  25 named destinations out of 1000 (max. 500000)

@@ -269,11 +269,12 @@ Let $\vec{A} = \myvec{x_1 \\ y_1 \\ z_1}$ and $\vec{B} = \myvec{x_2 \\ y_2 \\ z_
 
 The linear combination of $\vec{A}$ and $\vec{B}$ is:
 \begin{align}
-  k_1\vec{A} + k_2\vec{B} = \myvec{k_1x_1 + k_2x_2 \\ k_1y_1 + k_2y_2 \\ k_1z_1 + k_2z_2}
+  k_1\vec{A} + k_2\vec{B} = k_1\myvec{x_1 \\ y_1 \\ z_1} + k_2\myvec{x_2 \\ y_2 \\ z_2} = \myvec{k_1x_1 + k_2x_2 \\ k_1y_1 + k_2y_2 \\ k_1z_1 + k_2z_2}
 \end{align}
 Verifying the property of the subspace:
 \begin{multline}
-  k_1x_1+k_2x_2+k_1y_1+k_2y_2 = \\
+   \myvec{k_1 & k_2}\lcbrak{\myvec{x_1 \\ x_2}} + \rcbrak{\myvec{y_1 \\ y_2}} = \\
+   k_1x_1+k_2x_2+k_1y_1+k_2y_2 = \\
   k_1(x_1+y_1)+k_2(x_2+ y_2) = 0
 \end{multline}
 It is also evident from above that
@@ -303,7 +304,8 @@ Similarly option 4 is also not a valid subspace of $\R^3$ as it can be be shown 
   k_1\vec{A} + k_2\vec{B} = \myvec{k_1x_1 + k_2x_2 \\ k_1y_1 + k_2y_2 \\ k_1z_1 + k_2z_2}
 \end{align}
 \begin{multline}
-  \implies k_1x_1+k_2x_2-(k_1y_1+k_2y_2) = \\
+  \implies \myvec{k_1 & k_2}\lcbrak{\myvec{x_1 \\ x_2}} - \rcbrak{\myvec{y_1 \\ y_2}} = \\
+  k_1x_1+k_2x_2-(k_1y_1+k_2y_2) = \\
   k_1(x_1-y_1)+k_2(x_2-y_2) = k_1 + k_2 \neq 1
 \end{multline}
 \end{document}

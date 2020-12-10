@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  10 DEC 2020 14:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  10 DEC 2020 14:46
 entering extended mode
 **./Assignment8.tex
 (Assignment8.tex
@@ -1548,23 +1548,20 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 
 (D:\LateX\miktex\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-)
-Underfull \vbox (badness 5288) has occurred while \output is active []
-
- [1{C:/Users/admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+) [1{C:/Users/admin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
 ] [2
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
  (Assignment8.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 311.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 311.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 313.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 313.
 Package rerunfilecheck Info: File `Assignment8.out' has not changed.
 (rerunfilecheck)             Checksum: D5B89F675BDA744B48051CB276AF7A91;200.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 311.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
  ) 
 Here is how much of TeX's memory you used:
  41265 strings out of 480790
@@ -1582,7 +1579,7 @@ public/txfonts/txex.pfb><D:/LateX/miktex/fonts/type1/public/txfonts/txsy.pfb><D
 1/public/txfonts/txsyc.pfb><D:/LateX/miktex/fonts/type1/urw/times/utmb8a.pfb><D
 :/LateX/miktex/fonts/type1/urw/times/utmbi8a.pfb><D:/LateX/miktex/fonts/type1/u
 rw/times/utmr8a.pfb><D:/LateX/miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Assignment8.pdf (2 pages, 77427 bytes).
+Output written on Assignment8.pdf (2 pages, 77688 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)

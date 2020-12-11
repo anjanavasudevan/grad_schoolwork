@@ -263,63 +263,55 @@ A subspace $\vec{S}$ of a vector space is defined as a non-empty subset that is 
   \item All possible linear combinations of the vectors in $\vec{S}$ lie in the subspace.
   \item Any vector in $\vec{S}$ scaled by a scalar $c$ lies in the subspace.
 \end{enumerate}
-We define a vector $\vec{V} \in \vec{S}$ for each of the subspaces defined in the options as:
+We define any vector $\vec{V} \in \vec{S}$ for each of the subspaces defined in the options as:
 \begin{align}
-  \vec{V} = \myvec{x \\ y \\ z} = \myvec{\vec{x} \\ z_1}
+  \vec{V} = \myvec{x & y & z}^T
 \end{align}
 \subsection{Option 1:}
-Let $\vec{A} = \myvec{\vec{x_1} \\ z_1}$ and $\vec{B} = \myvec{\vec{x_2} \\ z_2} \in \vec{S}$, and $k_1$ and $k_2$ be some scalars.
+Let $\vec{A} = \myvec{x_1 & y_1 & z_1}^T$ and $\vec{B} = \myvec{x_1 & y_1 & z_2}^T \in \vec{S}$, and $k_1$ and $k_2$ be some scalars. As per definition:
 \begin{align}
-  \implies \myvec{1 & 1}\vec{x_1} = \myvec{1 & 1}\vec{x_2} = 0
+  \myvec{1 & 1 & 0}\vec{A} = \myvec{1 & 1 & 0}\vec{B} = 0
 \end{align}
-The linear combination of $\vec{A}$ and $\vec{B}$ is:
-\begin{align}
-  k_1\vec{A} + k_2\vec{B} = k_1\myvec{\vec{x_1} \\ z_1} + k_2\myvec{\vec{x_2} \\ z_2} = \myvec{k_1\vec{x_1} + k_2\vec{x_2} \\ k_1z_1 + k_2z_2}
-\end{align}
-Verifying the property of the subspace:
+Verifying the property of the subspace by using the linear combination of $\vec{A}$ and $\vec{B}$:
 \begin{multline}
-    \myvec{1 & 1}\lcbrak{k_1\vec{x_1}} + \rcbrak{k_2\vec{x_2}} = \\ \myvec{1 & 1}k_1\vec{x_1} + \myvec{1 & 1}k_2\vec{x_2}
+    \myvec{1 & 1 & 0}\lcbrak{k_1\vec{A}} + \rcbrak{k_2\vec{B}} = \\ \myvec{1 & 1 & 0}k_1\vec{A} + \myvec{1 & 1 & 0}k_2\vec{B}
 \end{multline}
 \begin{align}
-  \implies  k_1\myvec{1 & 1}\vec{x_1} + k_2\myvec{1 & 1}\vec{x_2} = 0
+  \implies  k_1\myvec{1 & 1 & 0}\vec{A} + k_2\myvec{1 & 1 & 0}\vec{B} = 0
 \end{align}
 It is also evident from above that
 \begin{align}
-  c\vec{A} = \myvec{c\vec{x_1} \\ cz_1} \\
-  \implies \myvec{1 & 1}c\vec{x}= 0
+  \myvec{1 & 1 & 0}c\vec{A} = c\myvec{1 & 1 & 0}\vec{A} = 0
 \end{align}
 for some scalar c. Therefore, option 1 is a subspace of $\R^3$. \\
 It can also be proven that option 2 is also a valid subspace of $\R^3$ as:
 \begin{align}
-  c\vec{A} = \myvec{c\vec{x_1} \\ cz_1} \\
-  \implies \myvec{1 & -1}(c\vec{x_1}) = c\myvec{1 & -1}\vec{x_1} = 0 \\
-  \implies   k_1\vec{A} + k_2\vec{B} = \myvec{k_1\vec{x_1} + k_1\vec{x_2}\\ k_1z_1 + k_2z_2}
+  \myvec{1 & -1 & 0}(c\vec{A}) = c\myvec{1 & -1 & 0}\vec{A} = 0
 \end{align}
+From the definition that $x-y = 0$
 \begin{multline}
-    \implies \myvec{1 & -1}\lcbrak{k_1\vec{x_1}} + \rcbrak{k_2\vec{x_2}} = \\
-    \myvec{1 & -1}(k_1\vec{x_1}) + \myvec{1 & -1}(k_2\vec{x_2}) = 0\in \vec{S}
+    \implies \myvec{1 & -1 & 0}\lcbrak{k_1\vec{A}} + \rcbrak{k_2\vec{B}} = \\
+    \myvec{1 & -1 & 0}(k_1\vec{A}) + \myvec{1 & -1 & 0}(k_2\vec{B}) = 0\in \vec{S}
 \end{multline} for some scalars $c, k_1$ and $k_2$ and vectors $\vec{A}$ and $\vec{B} \in \vec{S}$.
 \subsection{Option 3:}
-Option 3 is not a valid subspace of $\R^3$ as it can be shown that for some scalars $k_1$ and $k_2$, $\vec{A}$ and $\vec{B} \in \vec{S}$:
-\begin{align}
-  k_1\vec{A} + k_2\vec{B} = \myvec{k_1\vec{x_1} + k_2\vec{x_2} \\ k_1z_1 + k_2z_2}
-\end{align}
+Option 3 is not a valid subspace of $\R^3$ as it can be shown that for some scalars $k_1$ and $k_2$, $\vec{A}$ and $\vec{B} \in \vec{S}$ in the option:
 \begin{multline}
-    \implies \myvec{1 & 1}\lcbrak{k_1\vec{x_1}} + \rcbrak{k_2\vec{x_2}} = \\
-    k_1\myvec{1 & 1}\vec{x_1} + k_2\myvec{1 & 1}\vec{x_2} = k_1 + k_2 \neq 1
+    \implies \myvec{1 & 1 & 0}\lcbrak{k_1\vec{A}} + \rcbrak{k_2\vec{B}} = \\
+    k_1\myvec{1 & 1 & 0}\vec{A} + k_2\myvec{1 & 1 & 0}\vec{B} = k_1 + k_2 \neq 1
 \end{multline}
 Because
 \begin{align}
-  \myvec{1 & 1}\vec{x_1} = \myvec{1 & 1}\vec{x_2} = 1
-\end{align}
+  \myvec{1 & 1 & 0}\vec{A} = \myvec{1 & 1 & 0}\vec{B} = 1
+\end{align} from definition.
+
 Similarly option 4 is also not a valid subspace of $\R^3$ as it can be be shown in similar manner that
-\begin{align}
-  k_1\vec{A} + k_2\vec{B} = \myvec{k_1\vec{x_1} + k_2\vec{x_2} \\ k_1z_1 + k_2z_2}
-\end{align}
 \begin{multline}
-    \implies \myvec{1 & -1}\lcbrak{k_1\vec{x_1}} + \rcbrak{k_2\vec{x_2}} = \\
-    \myvec{1 & -1}(k_1\vec{x_1}) + \myvec{1 & -1}(k_2\vec{x_2}) = \\
+    \myvec{1 & -1 & 0}\lcbrak{k_1\vec{A}} + \rcbrak{k_2\vec{B}} = \\
+    \myvec{1 & -1 & 0}(k_1\vec{A}) + \myvec{1 & -1 & 0}(k_2\vec{B}) = \\
     k_1 + k_2 \neq 1
 \end{multline}
-Therefore, Options 1 and 2 are valid subspces of the vector space $\R^3$
+\begin{align}
+  \myvec{1 & -1 & 0}\vec{A} = \myvec{1 & -1 & 0}\vec{B} = 1
+\end{align}
+Therefore, Options 1 and 2 are valid subspaces of the vector space $\R^3$
 \end{document}
